@@ -311,7 +311,7 @@ namespace graduation_work
             {
                 txtOthers.Enabled = true;
 
-                // 入力欄がまだ空の場合、ユーザーがすぐ打てるようにカーソルを合わせる
+                // 入力欄がまだ空っぽのときだけ、ユーザーがすぐ打てるようにカーソルを合わせる
                 if (string.IsNullOrEmpty(txtOthers.Text))
                 {
                     txtOthers.Focus();
@@ -319,7 +319,7 @@ namespace graduation_work
             }
             else
             {
-                // どちらも「その他」ではない場合、、テキストボックスを無効化して文字を消す
+                // どちらも「その他」じゃないなら、テキストボックスを無効化して文字を消す
                 txtOthers.Enabled = false;
                 txtOthers.Text = string.Empty;
             }
