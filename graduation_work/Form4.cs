@@ -15,7 +15,14 @@ namespace graduation_work
     public partial class Form4 : Form
     {
 
-        
+        // データベース接続
+        //  string connectionString =
+        // "Host = "
+        // + "Port ="
+        // + "Username = "
+        // + "Password = "
+        // + "Database = ";
+
 
         // コンボボックス用にKey(Code)とValue(Name)を保持するクラス
         public class ComboItem

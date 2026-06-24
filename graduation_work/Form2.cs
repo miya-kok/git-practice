@@ -15,7 +15,13 @@ namespace graduation_work
     public partial class Form2 : Form
     {
 
-        
+        // データベース接続
+        //  string connectionString =
+           // "Host = "
+           // + "Port ="
+           // + "Username = "
+           // + "Password = "
+           // + "Database = ";
 
         public Form2()
         {
@@ -277,7 +283,7 @@ namespace graduation_work
             txtOrigin.Text = row.Cells[1].Value.ToString();
             txtHairLength.Text = row.Cells[2].Value.ToString();
 
-            string fileName = row.Cells[3].Value?.ToString() ?? string.Empty;
+            string fileName = row.Cells[4].Value?.ToString() ?? string.Empty;
 
             if (!string.IsNullOrEmpty(fileName))
             {

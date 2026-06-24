@@ -15,8 +15,13 @@ namespace graduation_work
     public partial class Form3 : Form
     {
 
-        
-
+        // データベース接続
+        //  string connectionString =
+        // "Host = "
+        // + "Port ="
+        // + "Username = "
+        // + "Password = "
+        // + "Database = ";
         public Form3()
         {
             InitializeComponent();
